@@ -1,0 +1,33 @@
+# Python project ignores
+__pycache__/
+*.pyc
+*.pyo
+venv/
+env/
+.env
+
+# MacOS & IDE
+.DS_Store
+.vscode/
+
+
+# Project specific
+# Keep API keys/secrets out of version control
+client_secrets.json
+
+# Ignore generated media and downloads folder
+downloads/
+*.mp4
+*.mp3
+*.jpg
+*.jpeg
+*.png
+*.webp
+
+# AI Agent files & conversation history
+.gemini/
+.claude/
+.cursor/
+brain/
+
+
